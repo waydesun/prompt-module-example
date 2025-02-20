@@ -1,3 +1,3 @@
 {{ define "main" }}
-{{ .PromptRawContent "log-prompt.md" }}
+{{ .Content "prompts/log-prompt.md" }}
 {{ end }} 
