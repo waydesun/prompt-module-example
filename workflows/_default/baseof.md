@@ -1,5 +1,5 @@
-{{ template "header.md" . }}
+{{ template "agile.md" . }}
+
+{{ template "privacy.md" . }}
 
 {{ block "main" . }}{{ end }}
-
-{{ template "footer.md" . }}
