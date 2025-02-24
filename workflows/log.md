@@ -1,3 +1,7 @@
 {{ define "main" }}
-{{ .Content "prompts/log-prompt.md" }}
+
+{{ .Content "prompts/company/a.md" }}
+{{ .Content "prompts/team/b.md" }}
+{{ .Content "prompts/solution/c.md" }}
+
 {{ end }} 
