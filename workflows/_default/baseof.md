@@ -1,5 +1,3 @@
-{{ template "agile.md" . }}
-
-{{ template "privacy.md" . }}
+{{ template "copyright.md" . }}
 
 {{ block "main" . }}{{ end }}
